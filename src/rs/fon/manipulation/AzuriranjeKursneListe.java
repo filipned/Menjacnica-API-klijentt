@@ -58,8 +58,8 @@ public class AzuriranjeKursneListe {
 		String azuriranDatum = datum.get(
 				GregorianCalendar.DAY_OF_MONTH)
 				+ "."
-				+ datum.get(
-						GregorianCalendar.MONTH)
+				+ (datum.get(
+						GregorianCalendar.MONTH) + 1)
 				+ "."
 				+ datum.get(
 						GregorianCalendar.YEAR) + ".";
